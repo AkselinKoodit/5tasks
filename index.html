@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>5 tasks</h1>
+    <h2>1. Military age task</h2>
+    <p>
+        Please write your age and press submit:
+    </p>
+        <form>
+            <div>
+                <label for="age">Age: </label>
+                <input type="text" id="age">
+
+            </div>
+        </form>
+        <button onclick="military(age)">Submit</button>
+        <p>Diagnose: <span id="answer"></span></p>
+    <hr>
+    <h2>2. Calculating</h2>
+    <p>Please give 3 numbers: </p>
+    <form>
+        <div>
+            <label for="first">First number: </label>
+            <input type="text" id="first"><br>
+            <label for="second">Second number: </label>
+            <input type="text" id="second"><br>
+            <label for="third">Third number: </label>
+            <input type="text" id="third"><br>
+            
+            
+        </div>
+    </form>
+    <button onclick="calculate(first, second, third)">Submit</button>
+    <p>Number data: <span id="answer2"></span></p>
+    <hr>
+
+    <h2>3. Number check task</h2>
+    <p>
+        Please write a number and press submit:
+    </p>
+        <form>
+            <div>
+                <label for="number">Number: </label>
+                <input type="text" id="number">
+            </div>
+        </form>
+        <button onclick="checkNum(number)">Submit</button>
+        <p>Info of number: <span id="answer3"></span></p>
+    <hr>
+    <h2>4. Ye good 'ol BMI calculator</h2>
+    <p>Please write your hieght and weight and press submit: </p>
+    <form>
+        <div>
+            <label for="height">Height: </label>
+            <input type="text" id="height"><br>
+            <label for="weight">Weight: </label>
+            <input type="text" id="weight"><br>
+        </div>
+    </form>
+    <button onclick="bmi(height, weight)">Sub</button>
+    <p>Your BMI: <span id="answer4"></span></p>
+    <hr>
+    <h2>5. Salary calculator</h2>
+    <p>Please write your salary per hour and the hours you have worked: </p>
+    <form>
+        <div>
+            <label for="salary">Salary: </label>
+            <input type="text" id="salary"><br>
+            <label for="hours">Hours: </label>
+            <input type="text" id="hours"><br>
+        </div>
+    </form>
+    <button onclick="salaryTotal(salary, hours)">Sub</button>
+    <p>Your salary: <span id="answer5"></span></p>
+    <hr>
+        
+    <script src="main.js"></script>
+</body>
+</html>
