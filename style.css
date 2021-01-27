@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+}
+.c1 {
+  background-color: #0e3b4377;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.c2 {
+  background-color: #35726685;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.c3 {
+  background: #a3bbad7c;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.c4 {
+  background-color: #65532f7a;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.c5 {
+  background-color: #31250975;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
